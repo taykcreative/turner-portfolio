@@ -1,0 +1,150 @@
+/*GENERAL STYLING*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#fbfbfc;
+}
+
+header{
+    background-color: #fbfbfc;
+    margin: auto;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+nav {
+    background-color:#72cddd;
+}
+
+.navbar {
+    padding-left: 0;
+    display: flex;
+    max-width: 400px;
+}
+
+.navbar .top-nav {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.top-nav a {
+    width: 100%;
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #444;
+}
+
+.active a {
+    color: #fff;
+}
+
+
+section {
+    background-color: #fbfbfc;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    background-color: #fbfbfc;
+    color: #111011;
+}
+
+.welcome-img{
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 50%;
+    max-width: 400px;
+}
+
+footer {
+    clear: both;
+    margin-top: 50px;
+}
+
+.footer-text{
+    font-size: 10pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-navbar {
+    margin: auto;
+    display: flex;
+    max-width:400px;
+}
+
+.footer-navbar .bottom-nav {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.bottom-nav a {
+    font-size: 12px;
+    width: 100%;
+    color: #444;
+}
+
+.bot-act {
+    font-weight: 600;
+}
+
+.t-adv {
+    text-align: right;
+    font-size: 6pt;
+    margin-top: 50px;
+}
+
+
+/*INDEX SPECIFIC*/
+
+
+/*SERVICES SPECIFIC*/
+
+
+/*PORTFOLIO SPECIFIC*/
+.gallery{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail { 
+    width: 30%;
+    top:-50px; 
+    left:-35px; 
+    display:block;
+    margin: 0 auto;
+    padding-top: 3%;
+    } 
+
+.thumbnail:hover { 
+    background-color: #fbfbfc;
+    border: 3px solid #fbfbfc;
+    transform: scale(1.5);
+}
+
+/*CONTACT SPECIFIC*/
+
+.tel {
+    text-decoration: none;
+}
+
+
